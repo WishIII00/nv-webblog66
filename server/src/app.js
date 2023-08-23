@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 require('./route')(app)
 
 app.get('/status', function (req, res) {
-    res.send('Hello nodejs server belonging to nitiphumi');
+    res.send('Hello nodejs server belonging to Sarawut');
 });
 
 app.get('/hello/:name', function (req, res) {
